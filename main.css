@@ -12,6 +12,23 @@ footer {
   left: 10px;
   bottom: 0;
   width: 100%;
-  color: grey;
+  color: rgb(0, 0, 0);
   text-align: left;
+}
+footer p {
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 40%;
+}
+footer img {
+  height: 15px;
+  width: 17px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+footer p:hover {
+  opacity: 100%;
 }
