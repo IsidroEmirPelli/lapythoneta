@@ -2,7 +2,9 @@
 ITBANK Grupo 7
 Diseño de página web para un home banking. Logo itbanking 
 Las etapas a seguir con el equipo de dev fueron: 
---------------------------------------------------------------Diseño-----------------------------------------------------------------------------
+
+------------------------------------------------------------Diseño------------------------------------------------------------
+
 >> WIREFRAME: te permite definir la jerarquía de la información presente en tu diseño,haciendo que te resulte más fácil planificar la maquetación conforme a cómo desees que tus usuarios procesen la información. 
 
 #Jerarquí de los contenido de la página de inicio
