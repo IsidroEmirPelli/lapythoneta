@@ -1,6 +1,5 @@
 #carouselExampleFade{
-      max-width: 40%;
-      
+    justify-content: right;
 }
 #carouselExampleCaptions{
     align-items: center;
