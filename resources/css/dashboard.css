@@ -19,3 +19,10 @@
 #tarjeta_credito{
   height: 0px;
 }
+#items{
+  display: inline;
+  font-size: 100px;
+}
+.container{
+  display: inline-flex;
+}
