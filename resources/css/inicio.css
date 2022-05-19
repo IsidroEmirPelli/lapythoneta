@@ -19,3 +19,8 @@
     max-width: 20%;
     justify-self: center;
 }
+
+#botones a{
+    color:white;
+    text-decoration: none;
+}
