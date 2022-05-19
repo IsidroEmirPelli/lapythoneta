@@ -20,7 +20,7 @@
     justify-self: center;
 }
 
-#botones {
+#botones a{
     color:white;
     text-decoration: none;
 }
