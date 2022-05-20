@@ -20,8 +20,11 @@
   height: 0px;
 }
 #items{
-  display: inline;
-  font-size: 100px;
+  display: flex;
+  flex-direction: row;
+}
+#item {
+  background-color: white;
 }
 .container{
   display: inline-flex;
