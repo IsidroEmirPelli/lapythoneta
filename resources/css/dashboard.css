@@ -13,8 +13,7 @@
   margin-left: 50%;
 }
 #texto-caja{
-  color: black;
-  
+  color: black; 
 }
 #tarjeta_credito{
   height: 0px;
@@ -22,6 +21,7 @@
 #items{
   display: flex;
   flex-direction: row;
+  margin-left: 2%;
 }
 #item {
   background-color: white;
