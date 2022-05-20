@@ -32,7 +32,7 @@
 
 </head>
 
-<body>
+<body class="bg-dark">
 
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top d-flex align-items-center">
@@ -208,7 +208,7 @@
             </li>
 
             <li>
-              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+              <a class="dropdown-item d-flex align-items-center" href="Error404.html">
                 <i class="bi bi-person"></i>
                 <span>Mi perfil</span>
               </a>
@@ -218,7 +218,7 @@
             </li>
 
             <li>
-              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+              <a class="dropdown-item d-flex align-items-center" href="Error404.html">
                 <i class="bi bi-gear"></i>
                 <span>Configuración de cuenta</span>
               </a>
@@ -228,7 +228,7 @@
             </li>
 
             <li>
-              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+              <a class="dropdown-item d-flex align-items-center" href="Error404.html">
                 <i class="bi bi-question-circle"></i>
                 <span>Centro de ayuda</span>
               </a>
@@ -238,7 +238,7 @@
             </li>
 
             <li>
-              <a class="dropdown-item d-flex align-items-center" href="#">
+              <a class="dropdown-item d-flex align-items-center" href="index.html">
                 <i class="bi bi-box-arrow-right"></i>
                 <span>Cerrar sesión</span>
               </a>
@@ -258,35 +258,35 @@
     <ul class="sidebar-nav" id="sidebar-nav">
       <li id="caja-de-ahorro-text" class="nav-heading">Páginas</li>
       <li class="nav-item">
-        <a  id="sidebar-item" class="nav-link collapsed" href="index.html">
+        <a  id="sidebar-item" class="nav-link collapsed" href="dashboard.html">
           <i class="bi bi-person"></i>
           <span>Inicio</span>
         </a>
       </li><!-- End Profile Page Nav -->
 
       <li class="nav-item">
-        <a id="sidebar-item" class="nav-link collapsed" href="#">
+        <a id="sidebar-item" class="nav-link collapsed" href="Error404.html">
           <i class="bi bi-question-circle"></i>
           <span>Resumen</span>
         </a>
       </li><!-- End F.A.Q Page Nav -->
 
       <li class="nav-item">
-        <a id="sidebar-item" class="nav-link collapsed" href="pages-blank.html">
+        <a id="sidebar-item" class="nav-link collapsed" href="Error404.html">
           <i class="bi bi-file-earmark"></i>
           <span >Transferencias</span>
         </a>
       </li><!-- End Blank Page Nav -->
 
       <li  class="nav-item">
-        <a id="sidebar-item" class="nav-link collapsed" href="pages-blank.html">
+        <a id="sidebar-item" class="nav-link collapsed" href="Error404.html">
           <i class="bi bi-file-earmark"></i>
           <span>Límites</span>
         </a>
 
       </li><!-- End Blank Page Nav -->
       <li class="nav-item">
-        <a id="sidebar-item" class="nav-link collapsed" href="pages-blank.html">
+        <a id="sidebar-item" class="nav-link collapsed" href="Error404.html">
           <i class="bi bi-file-earmark"></i>
           <span>Mas</span>
         </a>
@@ -326,9 +326,9 @@
 
             <!-- Balance total Card -->
             <div class="col-xxl-6 col-md-6">
-              <div class="card info-card revenue-card my-2">
+              <div class="card info-card revenue-card">
                 <div class="card-body">
-                  <h5 class="card-title"><strong>Balance total</strong></h5>
+                  <h5 class="card-title my-1"><strong>Balance total</strong></h5>
 
                   <div class="d-flex align-items-center my-2">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
@@ -343,10 +343,11 @@
               </div>
             </div><!-- End Revenue Card -->
             <!-- Reports -->
+            
             <div class="col-12">
-              <div class="card">
+              <div id="grafico" class="card py-4">
                 <div class="card-body">
-                  <h5 class="card-title">Ingresos/Gastos</h5>
+                  <h5 class="card-title ">Ingresos/Gastos</h5>
 
                   <!-- Line Chart -->
                   <div id="reportsChart"></div>
@@ -427,8 +428,8 @@
                 <li><a class="dropdown-item" href="#">Este mes</a></li>
               </ul>
             </div>
-
-            <div id="ultimos_consumos" class="card-body">
+  
+            <div id="ultimos_consumos" class="card-body min-vh-100 ">
               <h5 class="card-title">Últimos consumos</h5>
               <div class="activity">
                 <div class="activity-item d-flex">
@@ -438,7 +439,6 @@
                     Mercado Libre<a href="#" class="fw-bold text-dark"></a> $2050
                   </div>
                 </div><!-- End activity item-->
-
                 <div class="activity-item d-flex">
                   <div class="activite-label">56 min</div>
                   <i class='bi bi-circle-fill activity-badge text-danger align-self-start'></i>
@@ -446,7 +446,6 @@
                     Spotify $250
                   </div>
                 </div><!-- End activity item-->
-
                 <div class="activity-item d-flex">
                   <div class="activite-label">2 horas</div>
                   <i class='bi bi-circle-fill activity-badge text-primary align-self-start'></i>
@@ -454,7 +453,6 @@
                     Youtube Premium $150
                   </div>
                 </div><!-- End activity item-->
-
                 <div class="activity-item d-flex">
                   <div class="activite-label">1 dias</div>
                   <i class='bi bi-circle-fill activity-badge text-info align-self-start'></i>
@@ -462,7 +460,6 @@
                     Netflix $100
                   </div>
                 </div><!-- End activity item-->
-
                 <div class="activity-item d-flex">
                   <div class="activite-label">2 dias</div>
                   <i class='bi bi-circle-fill activity-badge text-warning align-self-start'></i>
@@ -470,7 +467,6 @@
                     Negocio Local $50
                   </div>
                 </div><!-- End activity item-->
-
                 <div class="activity-item d-flex">
                   <div class="activite-label">4 semanas</div>
                   <i class='bi bi-circle-fill activity-badge text-muted align-self-start'></i>
@@ -478,9 +474,7 @@
                     Mercado Libre $8750
                   </div>
                 </div><!-- End activity item-->
-
               </div>
-
             </div>
           </div>
       </div>

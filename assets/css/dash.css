@@ -19,6 +19,6 @@
     background-color: rgb(67, 35, 156);
     color: white;
 }
-#ultimos_consumos{
-    min-height: 100%;
+#grafico{
+    margin-top: 0.8rem;
 }
