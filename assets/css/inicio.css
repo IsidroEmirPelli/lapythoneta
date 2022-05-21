@@ -15,8 +15,11 @@
     max-width: 20%;
     justify-self: center;
 }
-
-#botones {
+button{
     color:white;
     text-decoration: none;
+}
+button a{
+    text-decoration: none;
+    color: white;
 }
