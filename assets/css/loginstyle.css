@@ -11,6 +11,10 @@ input {
   font-family: "Poppins", sans-serif;
 }
 
+#texto-ingresar {
+  align-items: center;
+}
+
 .container {
   position: relative;
   width: 100%;
