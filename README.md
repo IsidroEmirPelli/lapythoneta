@@ -19,4 +19,5 @@ Las etapas a seguir con el equipo de dev fueron:
 
 #Jerarquía página incio o la de tranferencia 
 
-
+---------------------------------------------
+La metodologia que llevamos a cabo fue mas que nada por LiveShare de VSCode (una extencion que permite que todos veamos lo mismo) la idea era ir solucionando incovenientes que surgian de forma grupal asi todos aprendiamos lo mismo y/o sabiamos que hace cada parte del codigo. La mayoria de las veces entraba el que podia y el que no trabajaba solo y despues subia sus avances/fixes.
