@@ -73,6 +73,9 @@ function detectDolar(){
 }
 
 
+
+
+
 function calcular(){
     const cantidad = cant.value;
     const dolar = detectDolar();
@@ -94,6 +97,6 @@ function crearInfo(venta,compra){
 }
 
 getDolar();
-
+setInterval(getDolar, 30000);
 
 
