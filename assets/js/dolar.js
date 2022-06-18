@@ -55,25 +55,11 @@ function getDolar() {
 }
 
 function detectDolar(){
-   if(document.getElementById("inputOficial").checked){
-        return infoOficial.innerHTML.split("$")[1];
-   }
-   if(document.getElementById("inputBlue").checked){
-        return infoBlue.innerHTML.split("$")[1];
-    }
-    if(document.getElementById("inputLiqui").checked){
-        return infoLiqui.innerHTML.split("$")[1];
-    }   
-    if(document.getElementById("inputBolsa").checked){
-        return infoBolsa.innerHTML.split("$")[1];
-    }
-    if(document.getElementById("inputTurista").checked){
-        return  infoTurista.innerHTML.split("$")[1];
-    }
+        const opciones = [inputOficial, inputBlue, inputLiqui, inputBolsa, inputTurista];
+        const returns = [infoOficial.innerHTML.split("$")[1], infoBlue.innerHTML.split("$")[1], infoLiqui.innerHTML.split("$")[1], infoBolsa.innerHTML.split("$")[1], infoTurista.innerHTML.split("$")[1], infoPromedio.innerHTML.split("$")[1]];
+        let selected = document.querySelector('input[type=radio][name=flexRadioDefault]:checked');
+        return returns[opciones.indexOf(selected)];
 }
-
-
-
 
 
 function calcular(){
